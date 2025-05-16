@@ -17,9 +17,17 @@ The goal is to understand the structure, patterns, and quality of a dataset thro
 
 📁 Dataset
 
-The dataset used in this project contains a mix of numerical and categorical variables.  
-It is stored as a CSV file in the `data/` folder.  
-If you don’t have the dataset, you can download it from [Download Link](#).
+The dataset used in this project comes from a Kaggle competition called [Don't Get Kicked!](https://www.kaggle.com/competitions/DontGetKicked).
+
+Due to Kaggle's data sharing policy, the dataset is not included in this repository.  
+To use the notebook:
+
+1. Download the dataset manually from the Kaggle competition page.
+2. Place the downloaded file (e.g., training.csv) in a folder named data/ inside this repository.
+3. Make sure the file path in your notebook matches this location:
+
+`python
+data = pd.read_csv('data/training.csv')
 
 ---
 
