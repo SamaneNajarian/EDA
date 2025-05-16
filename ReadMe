@@ -1,22 +1,29 @@
- Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA) Project
 
 This project demonstrates the core steps of Exploratory Data Analysis (EDA) using Python.  
-The goal is to understand the structure, patterns, and quality of a dataset through both statistical summaries and visualizations.
+The goal is to understand the structure, patterns, and quality of a dataset through statistical summaries and visualizations.
 
- 📌 Objectives
+---
 
-- Load and inspect a dataset
-- Perform basic statistical analysis
-- Identify missing values
-- Explore feature distributions and relationships
+📌 Project Objectives
+
+- Load and inspect the dataset  
+- Perform basic statistical analysis  
+- Identify and handle missing values  
+- Explore feature distributions and relationships  
 - Visualize data using Matplotlib and Seaborn
 
- 📁 Dataset
+---
 
-The dataset used in this notebook includes a mix of numerical and categorical variables.  
-It is a real-world-like dataset suitable for practicing data exploration and preprocessing.
+📁 Dataset
 
- 🧰 Tools & Libraries
+The dataset used in this project contains a mix of numerical and categorical variables.  
+It is stored as a CSV file in the `data/` folder.  
+If you don’t have the dataset, you can download it from [Download Link](#).
+
+---
+
+🧰 Tools & Libraries
 
 - Python 3.x  
 - Jupyter Notebook  
@@ -25,27 +32,12 @@ It is a real-world-like dataset suitable for practicing data exploration and pre
 - Matplotlib  
 - Seaborn  
 
- 📊 Key Steps
+---
 
-1. Loading the Data  
-   Reading the dataset into a DataFrame using pandas.
-
-2. Initial Exploration  
-   Reviewing shape, columns, types, and sample data.
-
-3. Missing Values  
-   Detecting and deciding how to handle missing data.
-
-4. Descriptive Statistics  
-   Exploring summary metrics like mean, median, and standard deviation.
-
-5. Visualization  
-   - Histograms and boxplots for distribution  
-   - Heatmaps for correlation analysis  
-   - Countplots for categorical features
-
- ▶️ How to Run
+🚀 How to Run
 
 1. Clone the repository:
-   `bash
+
+   ```bash
    git clone https://github.com/SamaneNajarian/EDA.git
+   cd EDA
